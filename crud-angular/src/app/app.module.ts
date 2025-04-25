@@ -5,10 +5,12 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoursesComponent } from './courses/courses/courses.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
