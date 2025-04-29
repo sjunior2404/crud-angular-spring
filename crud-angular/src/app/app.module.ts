@@ -6,6 +6,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses/courses.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { CoursesComponent } from './courses/courses/courses.component';
     CoursesComponent
   ],
   imports: [
+    MatTableModule,
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule
