@@ -5,6 +5,7 @@ import { MatTableModule } from '@angular/material/table';
 import { CoursesRoutingModule } from './courses-routing.module';
 
 
+
 @NgModule({
   declarations: [],
   imports: [
