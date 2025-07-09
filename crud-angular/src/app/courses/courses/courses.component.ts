@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Course } from '../model/course';
+import { CoursesService } from '../services/courses.service';
 
 @Component({
   selector: 'app-courses',
@@ -14,13 +15,16 @@ export class CoursesComponent implements OnInit {
     ];
 
     displayedColumns = ['name', 'category'];
+    //CoursesService: CoursesService;
 
-    constructor(){
-
+    constructor(private CoursesService: CoursesService){
+      //this.courses = [];
+      //this.CoursesService = new CoursesService();
+      this.courses = this.CoursesService.list();
     }
 
     ngOnInit(): void {
-      throw new Error('Method not implemented.');
+
     }
 
 

@@ -7,10 +7,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
 
-  imports: [
+  exports: [
     MatToolbarModule,
     MatTableModule,
-    MatCardModule
+    MatCardModule,
    ]
 })
 export class AppMaterialModule { }
