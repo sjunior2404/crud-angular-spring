@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses/courses.component';
 import { AppMaterialModule } from './shared/app-material/app-material.module';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from "./shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -16,9 +17,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppMaterialModule, 
-    HttpClientModule
-  ],
+    AppMaterialModule,
+    HttpClientModule,
+    SharedModule
+],
   providers: [
     provideAnimationsAsync()
   ],
