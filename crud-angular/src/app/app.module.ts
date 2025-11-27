@@ -8,6 +8,8 @@ import { CoursesComponent } from './courses/courses/courses.component';
 import { AppMaterialModule } from './shared/app-material/app-material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from "./shared/shared.module";
+import { MatButton, MatButtonModule, MatIconButton } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,10 @@ import { SharedModule } from "./shared/shared.module";
     AppRoutingModule,
     AppMaterialModule,
     HttpClientModule,
+    MatButtonModule,
+    MatIconButton,
+    MatButton,
+    MatToolbarModule,
     SharedModule
 ],
   providers: [
