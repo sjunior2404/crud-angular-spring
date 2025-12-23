@@ -25,7 +25,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatIconButton,
     MatButton,
     MatToolbarModule,
-    SharedModule
+    SharedModule,
 ],
   providers: [
     provideAnimationsAsync()

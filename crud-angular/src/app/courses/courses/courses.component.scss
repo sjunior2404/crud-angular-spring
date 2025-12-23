@@ -9,3 +9,14 @@ table{
   align-items: center;
   justify-content:center;
 }
+
+.border-none{
+  border:0px
+}
+
+.mat-mdc-mini-fab{
+  margin-top: 10px;
+  box-shadow:none !important;
+  width:30px;
+  height:30px;
+}
